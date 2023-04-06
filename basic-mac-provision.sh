@@ -22,7 +22,7 @@ cp ~/.dotfiles/.vimrc ~/.vimrc
 brew install --cask visual-studio-code slack google-chrome firefox zoom
 
 # Install Python packages using pip
-pip install virtualenv
+pip install virtualenv pyenv
 
 # Install global Node.js packages using yarn
 yarn global add parcel prettier eslint
