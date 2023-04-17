@@ -1,0 +1,15 @@
+chrome
+visual-studio-code
+adobe-acrobat-reader
+microsoft-remote-desktop
+spotify
+adobe-creative-cloud
+qFlipper
+bandwidth-plus
+github
+tabby
+magicchat
+arctablet
+docker
+slack
+insominia
