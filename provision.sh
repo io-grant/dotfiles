@@ -4,6 +4,10 @@
 ## Major shoutout to @TempusThales for encouraging & assisting me in my journey to become a bash God ##
 #######################################################################################################
 
+# TODO: 
+## - create a swiftDialog popup that will allow user to select which provision settings they want to apply
+## - create a system preferences default file with the settings I use
+
 echo "Starting Grant's Mac Provisioning Script 🦾"
 
 # Update the OS
@@ -16,9 +20,11 @@ echo "OS updated successfully ✅"
 echo "Setting macOS system preferences..."
     defaults write com.apple.dock autohide -bool true
     defaults write com.apple.dock tilesize -int 36
+    
 echo "System preferences set successfully ✅"
 
 # Install cmd-line tools
+
 echo "Installing command line tools..."
     xcode-select --install
 echo "Command line tools installed successfully ✅"
