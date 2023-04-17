@@ -15,3 +15,6 @@ slack
 insominia
 pipenv
 pyenv
+python3
+zoom
+steam
