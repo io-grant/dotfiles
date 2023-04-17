@@ -69,6 +69,7 @@ echo "Copying config files..."
 echo "Config files copied successfully ✅"
 
 # Update the OS
+
 echo "Updating macOS..."
     sudo softwareupdate -i -a
 echo "OS updated successfully ✅"
