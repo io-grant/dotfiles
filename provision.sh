@@ -1,15 +1,15 @@
 #!/bin/bash
 
 #######################################################################################################
-## Major shoutout to @TempusThales for encouraging & assisting  in my journey to become a bash God.  ##
+## Major shoutout to @TempusThales for encouraging & assisting  in my journey to become a bash God.
 #######################################################################################################
 
 ###################################################################################################################
-#### TODO:                                                                                                       ##
-#### - create a swiftDialog popup that will allow user to select which provision settings they want to apply     ##
-#### - finish writing system preferences default file with the settings prefered                                 ##
-#### - finish writing Finder preferences default file with the settings prefered                                 ##
-#### - finish writing .dotfiles default file with the settings                                                   ##
+#### TODO:
+#### - create a swiftDialog popup that will allow user to select which provision settings they want to apply
+#### - finish writing system preferences default file with the settings prefered
+#### - finish writing Finder preferences default file with the settings prefered
+#### - finish writing .dotfiles default file with the settings
 ###################################################################################################################
 
 echo "Starting Grant's Mac Provisioning Script 🦾"
@@ -34,6 +34,7 @@ echo "Finder preferences set successfully ✅"
 echo "Installing command line tools..."
     xcode-select --install
 echo "Command line tools installed successfully ✅"
+
 
 # Install Homebrew to install {some} apps
 
