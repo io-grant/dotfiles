@@ -6,7 +6,8 @@
 
 # TODO: 
 ## - create a swiftDialog popup that will allow user to select which provision settings they want to apply
-## - create a system preferences default file with the settings I use
+## - finish writing system preferences default file with the settings prefered
+## - finish writing Finder preferences default file with the settings prefered
 
 echo "Starting Grant's Mac Provisioning Script 🦾"
 
@@ -22,6 +23,13 @@ echo "Setting macOS system preferences..."
     defaults write com.apple.dock tilesize -int 36
     
 echo "System preferences set successfully ✅"
+
+# Set Finder preferences
+
+echo "Setting Finder preferences..."
+    defaults write com.apple.finder AppleShowAllFiles -bool true
+
+echo "Finder preferences set successfully ✅"
 
 # Install cmd-line tools
 
