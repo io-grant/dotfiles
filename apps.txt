@@ -13,3 +13,5 @@ arctablet
 docker
 slack
 insominia
+pipenv
+pyenv
