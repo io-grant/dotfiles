@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #######################################################################################################
-## Major shoutout to @TempusThales for encouraging & assisting me in my journey to become a bash God ##
+## Major shoutout to @TempusThales for encouraging & assisting  in my journey to become a bash God.  ##
 #######################################################################################################
 
 ###################################################################################################################
@@ -13,11 +13,6 @@
 ###################################################################################################################
 
 echo "Starting Grant's Mac Provisioning Script 🦾"
-
-# Update the OS
-echo "Updating macOS..."
-    sudo softwareupdate -i -a
-echo "OS updated successfully ✅"
 
 # Set macOS system preferences
 
@@ -56,10 +51,10 @@ echo "Installing apps from apps.txt..."
 echo "Apps installed from apps.txtsuccessfully ✅"
 
 # Installing oh-my-zsh
+
 echo "Installing oh-my-zsh..."
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo "Oh-my-zsh installed successfully ✅"
-
 
 # Copy config files to proper locations
 
@@ -69,7 +64,13 @@ echo "Copying config files..."
     cp -v config/.gitconfig ~/
     cp -v config/.vimrc ~/
     cp -v config/.zshrc ~/  
+    cp -v config/.oh-my-zsh ~/
 echo "Config files copied successfully ✅"
+
+# Update the OS
+echo "Updating macOS..."
+    sudo softwareupdate -i -a
+echo "OS updated successfully ✅"
 
 sleep 2
 
