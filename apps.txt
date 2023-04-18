@@ -1,4 +1,4 @@
-chrome
+google-chrome
 visual-studio-code
 adobe-acrobat-reader
 microsoft-remote-desktop

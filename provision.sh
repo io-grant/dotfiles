@@ -10,6 +10,7 @@
 #### - finish writing system preferences default file with the settings prefered
 #### - finish writing Finder preferences default file with the settings prefered
 #### - finish writing .dotfiles default file with the settings
+#### - fix issues with brew installing softwares (some pkgs arn't available with brew)
 ###########################################################################################################
 
 echo "Starting Grant's Mac Provisioning Script 🦾"
@@ -17,15 +18,15 @@ echo "Starting Grant's Mac Provisioning Script 🦾"
 # Set macOS system preferences
 
 echo "Setting macOS system preferences..."
-    defaults write com.apple.dock autohide -bool true
-    defaults write com.apple.dock tilesize -int 36
+    # defaults write com.apple.dock autohide -bool true
+    # defaults write com.apple.dock tilesize -int 36
     
 echo "System preferences set successfully ✅"
 
 # Set Finder preferences
 
 echo "Setting Finder preferences..."
-    defaults write com.apple.finder AppleShowAllFiles -bool true
+    # defaults write com.apple.finder AppleShowAllFiles -bool true
 
 echo "Finder preferences set successfully ✅"
 
