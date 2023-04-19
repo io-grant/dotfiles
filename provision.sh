@@ -74,7 +74,7 @@ echo "Config files copied successfully ✅"
 echo "Updating macOS..."
     sudo softwareupdate -i -a
 echo "OS updated successfully ✅"
-
+    
 sleep 2
 
 echo "Provisioning script complete 🦾"
