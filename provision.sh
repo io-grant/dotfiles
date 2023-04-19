@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ######################################################################################################
-## Major shoutout to @TempusThales for encouraging & assisting  in my journey to become a bash God.
+## Major shoutout to @TempusThales for encouraging & assisting in my journey to become a bash God.
 ######################################################################################################
 
 ###########################################################################################################
